@@ -1,0 +1,212 @@
+/* Hero */
+
+.text-skyblue{
+    color: #2DC9EF;
+}
+
+.text-deepblue{
+    color: #0065D0;
+}
+
+.bg-deepblue{
+    background-color: #0065D0;
+}
+
+.bg-gray{
+    background-color: #f2f2f2;
+}
+
+.hero{
+    
+}
+
+.hero-content{
+    width: 80% ;
+}
+
+@media(min-width:991px){
+    .desc-hero{
+        width: 60%;
+    }
+    .desc-hero h2{
+        font-size: 36px;
+    }
+    
+    .img-hero{
+        width: 30%;
+    }
+}
+
+
+
+/* Carousel Staff */
+
+/* desktop view */
+@media (min-width: 1024px) {
+  #carouselExampleRide {
+    width: 832px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #e5f8fd;
+  }
+  .button-prev-next button {
+    border: none;
+    top: 40%;
+    background-color: transparent;
+  }
+  .carousel-content {
+    padding: 0.5rem;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .carousel-content img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .carousel-item {
+    padding: 2rem;
+  }
+
+  .testimonial-content {
+    text-align: left;
+    max-width: 420px;
+  }
+
+  .testimonial-content p {
+    font-size: 14px;
+  }
+
+  .button-follow-me button {
+    background-color: #1f76d4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .button-follow-me button:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    margin: 0;
+  }
+}
+
+/* tablet view*/
+@media (max-width: 768px) {
+  #carouselExampleRide {
+    width: 600px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    background-color: #e5f8fd;
+  }
+  .button-prev-next button {
+    border: none;
+    top: 40%;
+    background-color: transparent;
+  }
+  .carousel-content {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .carousel-item {
+    padding: 0.2rem;
+  }
+
+  .testimonial-content {
+    text-align: left;
+    max-width: 330px;
+  }
+
+  .carousel-content img {
+    width: 150px;
+    height: 200px;
+  }
+
+  .testimonial-content p {
+    font-size: 14px;
+  }
+
+  .button-follow-me button {
+    background-color: #1f76d4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .button-follow-me button:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    margin: 0;
+  }
+}
+
+/* mobile view */
+@media (max-width: 576px) {
+  #carouselExampleRide {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 1rem;
+    background-color: #e5f8fd;
+  }
+
+  .button-prev-next button {
+    border: none;
+    top: 40%;
+    background-color: transparent;
+  }
+
+  .carousel-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-content img {
+    width: 100px;
+    height: 120px;
+  }
+
+  .carousel-item {
+    padding: 0.5rem;
+  }
+
+  .testimonial-content {
+    text-align: center;
+    max-width: 300px;
+    padding: 1rem 1rem;
+  }
+
+  .testimonial-content h1 {
+    font-size: 16px;
+  }
+
+  .testimonial-content p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .button-follow-me button {
+    margin: 0 auto;
+    background-color: #1f76d4;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 0.4rem 1rem;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .button-follow-me button:hover {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+  }
+}
