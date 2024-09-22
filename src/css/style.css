@@ -527,8 +527,10 @@
 
 /* Button Theme */
 
+@media (min-width: 991px) {
 #navbarCollapse  .btn-theme {
   padding-left: 20px;
+}
 }
 
 .btn-light {
