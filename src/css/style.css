@@ -131,8 +131,18 @@
 }
 
 .bg-deepblue {
-  background-color: #0065d0;
+  background-color: #1f76d4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.bg-deepblue:hover {
+  opacity: 0.9;
+}
+
 
 .bg-gray {
   background-color: #f2f2f2;
@@ -166,42 +176,52 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .catalog-card {
-  width: 16%;
-  margin: 50px;
-  /* margin-top: 16px;
-margin-bottom: 16px; */
+  width: 20%;
+  margin: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog-image-container {
+  height: 80%;
 }
 
 .catalog-image {
-  height: 150% width;
   width: 100%;
-  object-fit: fill;
+  height: 100%;
+  object-fit: cover;
 }
 
 .catalog-information {
+  height: 20%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
-@media (max-width: 1024px) {
+/* Tablet View for Catalog */
+@media (max-width: 1100px) {
   .catalog {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 
   .catalog-card {
-    width: 20%;
-    margin: 25px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    width: 30%;
+    margin: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 
+/* Mobile View for catalog  */
 @media (max-width: 500px) {
   .catalog {
     padding-top: 25px;
@@ -209,7 +229,7 @@ margin-bottom: 16px; */
   }
 
   .catalog-card {
-    width: 40%;
+    width: 48%;
     margin: 0px;
     margin-top: 16px;
     margin-bottom: 16px;
@@ -482,7 +502,8 @@ margin-bottom: 16px; */
 }
 
 .custom-scroll {
-  max-height: 500px; /* Adjust this height as needed */
+  max-height: 500px;
+  /* Adjust this height as needed */
   overflow-y: auto;
 }
 
@@ -525,6 +546,7 @@ margin-bottom: 16px; */
 }
 
 @media (min-width: 991px) {
+
   /* for footer section */
   /* set margin for footer */
   footer {
@@ -646,6 +668,7 @@ margin-bottom: 16px; */
 }
 
 @media (min-width: 1024px) {
+
   /* for footer section */
   /* set margin for footer */
   footer {
