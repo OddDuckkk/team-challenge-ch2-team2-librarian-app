@@ -124,7 +124,7 @@
     font-weight: 700;
 }
 
-/* Hero Section*/
+/* Hero */
 .text-skyblue {
     color: #2DC9EF;
 }
@@ -417,4 +417,498 @@ margin-bottom: 16px; */
 
 .action-buttons button {
     margin-right: 5px;
+}
+
+/* Footer section */
+
+@media(min-width:991px) {
+
+    /* for footer section */
+    /* set margin for footer */
+    footer {
+        margin-left: 36px !important;
+        margin-right: 36px !important;
+        display: flex;
+    }
+
+    /* footer 1 */
+    .footer-1 {
+        margin-right: auto;
+        width: 301px;
+    }
+
+    /* footer logo in footer 1 */
+    .footer-logo {
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* set margin for text in footer logo */
+    .footer-logo p {
+        margin: auto 0px auto 24px;
+    }
+
+    /* set h3 in footer 1 */
+    .footer-1-h {
+        margin-top: 29px;
+        margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* set p in footer 1 */
+    .footer-1-p {
+        font-size: 14px;
+    }
+
+    /* footer 2 */
+    .footer-2 {
+        margin: 10px auto 0px auto;
+    }
+
+    /* set tag h */
+    .footer-2 h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* for whatsapp icon */
+    .img-wa {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-wa p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* for linkedin icon */
+    .img-linkedin {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-linkedin p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* for instagram icon */
+    .img-ig {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-ig p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* footer 3 */
+    .footer-3 {
+        margin: 10px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* styling list */
+    .footer-3 a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+
+    /* footer 4 */
+    .footer-4 {
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    /* for tag h 3 */
+    .footer-4-h {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* for quote */
+    .footer-4-quote {
+        font-size: 14px;
+    }
+
+    /* for name */
+    .footer-4-name {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* for footer section */
+    /* set margin for footer */
+    footer {
+        margin-left: 36px !important;
+        margin-right: 36px !important;
+        display: flex;
+    }
+
+    /* footer 1 */
+    .footer-1 {
+        margin-right: auto;
+        width: 301px;
+    }
+
+    /* footer logo in footer 1 */
+    .footer-logo {
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* set margin for text in footer logo */
+    .footer-logo p {
+        margin: auto 0px auto 24px;
+    }
+
+    /* set h3 in footer 1 */
+    .footer-1-h {
+        margin-top: 29px;
+        margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* set p in footer 1 */
+    .footer-1-p {
+        font-size: 14px;
+    }
+
+    /* footer 2 */
+    .footer-2 {
+        margin: 10px auto 0px auto;
+    }
+
+    /* set tag h */
+    .footer-2 h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* for whatsapp icon */
+    .img-wa {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-wa p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* for linkedin icon */
+    .img-linkedin {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-linkedin p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* for instagram icon */
+    .img-ig {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-ig p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* footer 3 */
+    .footer-3 {
+        margin: 10px auto 0px auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* styling list */
+    .footer-3 a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+
+    /* footer 4 */
+    .footer-4 {
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+    /* for tag h 3 */
+    .footer-4-h {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* for quote */
+    .footer-4-quote {
+        font-size: 14px;
+    }
+
+    /* for name */
+    .footer-4-name {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 768px) {
+
+    footer {
+        margin-left: 36px;
+        margin-right: 36px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* footer 1 */
+    .footer-1 {
+        margin-right: auto;
+        width: 45%;
+    }
+
+    /* footer logo in footer 1 */
+    .footer-logo {
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* set margin for text in footer logo */
+    .footer-logo p {
+        margin: auto 0px auto 24px;
+    }
+
+    /* set h3 in footer 1 */
+    .footer-1-h {
+        margin-top: 29px;
+        margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* set p in footer 1 */
+    .footer-1-p {
+        font-size: 14px;
+    }
+
+    /* footer 2 */
+    .footer-2 {
+        width: 45%;
+        margin-top: 10px;
+        margin-left: auto;
+    }
+
+    /* set tag h */
+    .footer-2 h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* for whatsapp icon */
+    .img-wa {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-wa p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* for linkedin icon */
+    .img-linkedin {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-linkedin p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* for instagram icon */
+    .img-ig {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-ig p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* footer 3 */
+    .footer-3 {
+        width: 45%;
+        margin: 40px auto 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* styling list */
+    .footer-3 a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+
+    /* footer 4 */
+    .footer-4 {
+        width: 45%;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+
+    /* for tag h 3 */
+    .footer-4-h {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* for quote */
+    .footer-4-quote {
+        font-size: 14px;
+    }
+
+    /* for name */
+    .footer-4-name {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 576px) {
+
+    footer {
+        margin: 0px;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* footer 1 */
+    .footer-1 {
+        margin-right: auto;
+        width: 301px;
+    }
+
+    /* footer logo in footer 1 */
+    .footer-logo {
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* set margin for text in footer logo */
+    .footer-logo p {
+        margin: auto 0px auto 24px;
+    }
+
+    /* set h3 in footer 1 */
+    .footer-1-h {
+        margin-top: 29px;
+        margin-bottom: 4px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* set p in footer 1 */
+    .footer-1-p {
+        font-size: 14px;
+    }
+
+    /* footer 2 */
+    .footer-2 {
+        margin: 20px auto 0px 0px;
+    }
+
+    /* set tag h */
+    .footer-2 h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* for whatsapp icon */
+    .img-wa {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-wa p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* for linkedin icon */
+    .img-linkedin {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-linkedin p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* for instagram icon */
+    .img-ig {
+        display: flex;
+        margin-bottom: 11px;
+    }
+
+    .img-ig p {
+        margin: auto 0px auto 8px;
+    }
+
+    /* footer 3 */
+    .footer-3 {
+        margin: 20px auto 0px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* styling list */
+    .footer-3 a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+
+    /* footer 4 */
+    .footer-4 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    /* for tag h 3 */
+    .footer-4-h {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* for quote */
+    .footer-4-quote {
+        font-size: 14px;
+    }
+
+    /* for name */
+    .footer-4-name {
+        font-size: 14px;
+        font-weight: 500;
+    }
 }
