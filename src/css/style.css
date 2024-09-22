@@ -2,6 +2,72 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Navbar */
+.navbar {
+  background-color: #0065D0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+  transition: background-color 0.3s ease; /* Transisi warna */
+}
+
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+  width: 100%;
+}
+
+.nav-item .nav-link {
+  position: relative;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #85bfcf; /* Warna biru tua */
+  transition: width 0.3s ease; /* Transisi yang halus */
+}
+
+.nav-item .nav-link:hover::after {
+  width: 100%; /* Garis penuh saat di-hover */
+}
+.nav-item .nav-link {
+  text-decoration: none !important;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus,
+.nav-item .nav-link:active {
+  text-decoration: none !important;
+}
+
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  transition: border-color 0.3s; 
+}
+
+.search-input:focus {
+  border-color: #ffffff; 
+  box-shadow: 0 0 5px rgba(0, 103, 221, 0.5);
+}
+
+
+
 /* Hero */
 
 .text-skyblue {
@@ -18,9 +84,6 @@
 
 .bg-gray {
   background-color: #f2f2f2;
-}
-
-.hero {
 }
 
 .hero-content {
