@@ -18,7 +18,7 @@
 
   <body>
     <header class="navbar-light navbar-sticky header-static">
-      <nav class="navbar navbar-expand-xl">
+      <nav class="navbar navbar-expand-xl" id="navbar">
         <div
           class="container-fluid px-3 px-xl-5 d-flex justify-content-between align-items-center"
         >
@@ -61,6 +61,11 @@
               </li>
             </ul>
 
+            <div class="btn-theme" role="group" aria-label="Basic example">
+              <button type="button" id="buttonLight" class="btn-light">Light</button>
+              <button type="button" id="buttonDark" class="btn-dark">Dark</button>
+            </div>
+
             <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
               <div class="nav-item w-100">
                 <form class="position-relative">
@@ -79,25 +84,7 @@
                 </form>
               </div>
             </div>
-          </div>
-          <div class="dropdown ms-1 ms-lg-0">
-            <a
-              class="avatar avatar-sm p-0"
-              href="#"
-              role="button"
-              data-bs-auto-close="outside"
-              data-bs-display="static"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img
-                class="avatar-img"
-                src="public/images/logoBinar.png"
-                alt="avatar"
-                width="50px"
-                height="50px"
-              />
-            </a>
+
           </div>
         </div>
       </nav>
@@ -250,8 +237,8 @@
             />
           </div>
           <div class="catalog-information bg-gray rounded-bottom">
-            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">Batman #101</p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular">Wahyu Anang</p>
+            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold" id="headline">Batman #101</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular" id="author">Wahyu Anang</p>
           </div>
         </div>
         <div class="catalog-card">
@@ -263,8 +250,8 @@
             />
           </div>
           <div class="catalog-information bg-gray rounded-bottom">
-            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">Spiderman</p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular">
+            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold" id="headline">Spiderman</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular" id="author">
               Nita Fitrotul
             </p>
           </div>
@@ -278,8 +265,8 @@
             />
           </div>
           <div class="catalog-information bg-gray rounded-bottom">
-            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">Iron-Man</p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular">Rafly Aziz</p>
+            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold" id="headline">Iron-Man</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular" id="author">Rafly Aziz</p>
           </div>
         </div>
         <div class="catalog-card">
@@ -291,10 +278,10 @@
             />
           </div>
           <div class="catalog-information bg-gray rounded-bottom">
-            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">
+            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold" id="headline">
               The Great Gatsby
             </p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular">Tegar Alfa</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular" id="author">Tegar Alfa</p>
           </div>
         </div>
         <div class="catalog-card">
@@ -306,8 +293,8 @@
             />
           </div>
           <div class="catalog-information bg-gray rounded-bottom">
-            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">The Godfather</p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular">
+            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold" id="headline">The Godfather</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular" id="author">
               Jetro Sulthan
             </p>
           </div>
@@ -321,8 +308,8 @@
             />
           </div>
           <div class="catalog-information bg-gray rounded-bottom">
-            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">Invisible Man</p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular">
+            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold" id="headline">Invisible Man</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular" id="author">
               Muhammad Rifqi
             </p>
           </div>
@@ -336,10 +323,10 @@
             />
           </div>
           <div class="catalog-information bg-gray rounded-bottom">
-            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">
+            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold" id="headline">
               Attack on Titan
             </p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular">Ahmad Alif</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular" id="author">Ahmad Alif</p>
           </div>
         </div>
         <div class="catalog-card">
@@ -351,8 +338,8 @@
             />
           </div>
           <div class="catalog-information bg-gray rounded-bottom">
-            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">One Piece</p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular">
+            <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold" id="headline">One Piece</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-14px-regular" id="author">
               Brandon Ogaden
             </p>
           </div>
@@ -381,9 +368,9 @@
                 alt="profile testimonial"
               />
               <div class="testimonial-content">
-                <h1 class="fs-5 fw-bold">Nita Fitrotul Mar'ah</h1>
-                <span style="color: #7a7a7a">FullStack Developer</span>
-                <p>
+                <h1 class="fs-5 fw-bold" id="name">Nita Fitrotul Mar'ah</h1>
+                <span style="color: #7a7a7a" id="description">FullStack Developer</span>
+                <p id="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus vitae magni, officia accusamus numquam saepe itaque
                 </p>
@@ -403,9 +390,9 @@
                 alt="profile testimonial"
               />
               <div class="testimonial-content">
-                <h1 class="fs-5 fw-bold">Rafly Aziz Abdillah</h1>
-                <span style="color: #7a7a7a">FullStack Developer</span>
-                <p>
+                <h1 class="fs-5 fw-bold" id="name">Rafly Aziz Abdillah</h1>
+                <span style="color: #7a7a7a" id="description">FullStack Developer</span>
+                <p id="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus vitae magni, officia accusamus numquam saepe itaque
                 </p>
@@ -425,9 +412,9 @@
                 alt="profile testimonial"
               />
               <div class="testimonial-content">
-                <h1 class="fs-5 fw-bold">Gede Brandon Abelio Ogaden</h1>
-                <span style="color: #7a7a7a">FullStack Developer</span>
-                <p>
+                <h1 class="fs-5 fw-bold" id="name">Gede Brandon Abelio Ogaden</h1>
+                <span style="color: #7a7a7a" id="description">FullStack Developer</span>
+                <p id="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus vitae magni, officia accusamus numquam saepe itaque
                 </p>
@@ -447,9 +434,9 @@
                 alt="profile testimonial"
               />
               <div class="testimonial-content">
-                <h1 class="fs-5 fw-bold">Tegar Alfa Rizzi</h1>
-                <span style="color: #7a7a7a">FullStack Developer</span>
-                <p>
+                <h1 class="fs-5 fw-bold" id="name">Tegar Alfa Rizzi</h1>
+                <span style="color: #7a7a7a" id="description">FullStack Developer</span>
+                <p id="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus vitae magni, officia accusamus numquam saepe itaque
                 </p>
@@ -469,9 +456,9 @@
                 alt="profile testimonial"
               />
               <div class="testimonial-content">
-                <h1 class="fs-5 fw-bold">Wahyu Anang Zulfikri</h1>
-                <span style="color: #7a7a7a">FullStack Developer</span>
-                <p>
+                <h1 class="fs-5 fw-bold" id="name">Wahyu Anang Zulfikri</h1>
+                <span style="color: #7a7a7a" id="description">FullStack Developer</span>
+                <p id="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus vitae magni, officia accusamus numquam saepe itaque
                 </p>
@@ -491,9 +478,9 @@
                 alt="profile testimonial"
               />
               <div class="testimonial-content">
-                <h1 class="fs-5 fw-bold">Jetro Sulthan Fatih Nurrafi</h1>
-                <span style="color: #7a7a7a">FullStack Developer</span>
-                <p>
+                <h1 class="fs-5 fw-bold" id="name">Jetro Sulthan Fatih Nurrafi</h1>
+                <span style="color: #7a7a7a" id="description">FullStack Developer</span>
+                <p id="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus vitae magni, officia accusamus numquam saepe itaque
                 </p>
@@ -513,9 +500,9 @@
                 alt="profile testimonial"
               />
               <div class="testimonial-content">
-                <h1 class="fs-5 fw-bold">Muhammad Rifqi Tri Afandi</h1>
-                <span style="color: #7a7a7a">FullStack Developer</span>
-                <p>
+                <h1 class="fs-5 fw-bold" id="name">Muhammad Rifqi Tri Afandi</h1>
+                <span style="color: #7a7a7a" id="description">FullStack Developer</span>
+                <p id="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus vitae magni, officia accusamus numquam saepe itaque
                 </p>
@@ -525,7 +512,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" id="carouselFrame">
             <div
               class="carousel-content d-flex align-items-center flex-column flex-md-row justify-content-center text-center"
             >
@@ -535,9 +522,9 @@
                 alt="profile testimonial"
               />
               <div class="testimonial-content">
-                <h1 class="fs-5 fw-bold">Ahmad Alif Ramadhan</h1>
-                <span style="color: #7a7a7a">FullStack Developer</span>
-                <p>
+                <h1 class="fs-5 fw-bold" id="name">Ahmad Alif Ramadhan</h1>
+                <span style="color: #7a7a7a" id="description">FullStack Developer</span>
+                <p id="description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Minus vitae magni, officia accusamus numquam saepe itaque
                 </p>
@@ -571,8 +558,11 @@
       </div>
     </section>
 
+    <!-- Dark & Light Theme -->
+    
+
     <!-- footer section -->
-    <footer>
+    <footer id="footer">
       <!-- for footer 1 -->
       <section class="footer-1">
         <div class="footer-logo">
@@ -605,10 +595,10 @@
 
       <!-- for footer 3 -->
       <section class="footer-3">
-        <a href="#">Beranda</a>
-        <a href="#">Staff</a>
-        <a href="#">Kategori Buku</a>
-        <a href="#">Buku</a>
+        <a href="#" id="link">Beranda</a>
+        <a href="#" id="link">Staff</a>
+        <a href="#" id="link">Kategori Buku</a>
+        <a href="#" id="link">Buku</a>
       </section>
 
       <!-- for footer 4 -->
