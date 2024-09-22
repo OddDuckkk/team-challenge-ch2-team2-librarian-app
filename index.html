@@ -18,7 +18,7 @@
 
 <body>
     <header class="navbar-light navbar-sticky header-static">
-        <nav class="navbar navbar-expand-xl">
+        <nav class="navbar navbar-expand-xl" id="navbar">
             <div class="container-fluid px-3 px-xl-5 d-flex justify-content-between align-items-center">
                 <a class="navbar-brand" href="index.html">
                     <img class="navbar-brand-item me-2" src="public/images/logo book.svg" alt="logo" />
@@ -47,11 +47,16 @@
                         </li>
                     </ul>
 
-                    <div class="nav my-3 my-xl-0 px-4 flex-nowrap align-items-center">
+                    <div class="btn-theme" role="group" aria-label="Basic example">
+                        <button type="button" id="buttonLight" class="btn-light">Light</button>
+                        <button type="button" id="buttonDark" class="btn-dark">Dark</button>
+                    </div>
+
+                    <div class="nav my-3 my-xl-0 px-lg-4 flex-nowrap align-items-center">
                         <div class="nav-item w-100">
                             <form class="position-relative">
                                 <input class="form-control pe-5 bg-white search-input" type="search"
-                                    placeholder="Search" aria-label="Search">
+                                    placeholder="Search" aria-label="Search" />
                                 <button
                                     class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset"
                                     type="submit">
@@ -60,13 +65,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
-                <div class="dropdown ms-1 ms-lg-0">
-                    <a class="avatar avatar-sm p-0" href="#" role="button" data-bs-auto-close="outside"
-                        data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img class="avatar-img" src="public/images/logoBinar.png" alt="avatar" width="50px"
-                            height="50px" />
-                    </a>
+
                 </div>
             </div>
         </nav>
@@ -150,7 +149,6 @@
                                 <div class="row">
                                     <!-- Night Shift Cards -->
                                     <div class="col-12 col-lg-6 mb-4">
-                                        <h3 class="title-staff text-center text-white">Night Shift</h3>
                                         <div class="section card-staff custom-scroll" id="shift-night-cards">
                                             <h4 class="text-center text-white">Night Shift</h4>
                                             <div style="max-height: 500px; overflow-y: auto; padding: 10px">
@@ -163,9 +161,6 @@
 
                                     <!-- Morning Shift Cards -->
                                     <div class="col-12 col-lg-6 mb-4">
-                                        <h3 class="title-staff text-center text-white">
-                                            Morning Shift
-                                        </h3>
                                         <div class="section card-staff custom-scroll" id="shift-morning-cards">
                                             <h4 class="text-center text-white">Morning Shift</h4>
                                             <div style="max-height: 500px; overflow-y: auto; padding: 10px">
@@ -178,18 +173,19 @@
                                 </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </section>
             </div>
     </section>
 
-     <!-- Catalog Section -->
-     <section id="catalog" class="catalog container my-5">
+    <!-- Catalog Section -->
+    <section id="catalog" class="catalog container my-5">
 
         <!-- Catalog Header / Text -->
         <div>
             <p class="pt-2 pb-0 mb-0 font__poppins-28px-bold">Koleksi buku kami</p>
-            <p class="pt-1 pb-3 mb-0 font__poppins-16px-regular">Berikut adalah beberapa cuplikan buku yang kami miliki</p>
+            <p class="pt-1 pb-3 mb-0 font__poppins-16px-regular">Berikut adalah beberapa cuplikan buku yang kami miliki
+            </p>
         </div>
 
         <!-- Catalog Contents -->
@@ -198,7 +194,8 @@
             <!-- Book 1 -->
             <div class="card catalog-card">
                 <div class="catalog-image-container">
-                    <img class="catalog-image rounded-top img-fluid" src="public/catalog/batman-1.jpeg" alt="book-cover">
+                    <img class="catalog-image rounded-top img-fluid" src="public/catalog/batman-1.jpeg"
+                        alt="book-cover">
                 </div>
                 <div class="catalog-information bg-gray rounded-bottom">
                     <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">Batman #101</p>
@@ -209,7 +206,8 @@
             <!-- Book 2 -->
             <div class="card catalog-card">
                 <div class="catalog-image-container">
-                    <img class="catalog-image rounded-top img-fluid" src="public/catalog/spiderman.jpg" alt="book-cover">
+                    <img class="catalog-image rounded-top img-fluid" src="public/catalog/spiderman.jpg"
+                        alt="book-cover">
                 </div>
                 <div class="catalog-information bg-gray rounded-bottom">
                     <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">Spiderman</p>
@@ -220,7 +218,8 @@
             <!-- Book 3 -->
             <div class="card catalog-card">
                 <div class="catalog-image-container">
-                    <img class="catalog-image rounded-top img-fluid" src="public/catalog/iron-man.jpeg" alt="book-cover">
+                    <img class="catalog-image rounded-top img-fluid" src="public/catalog/iron-man.jpeg"
+                        alt="book-cover">
                 </div>
                 <div class="catalog-information bg-gray rounded-bottom">
                     <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">Iron-Man</p>
@@ -242,7 +241,8 @@
             <!-- Book 5 -->
             <div class="card catalog-card">
                 <div class="catalog-image-container">
-                    <img class="catalog-image rounded-top img-fluid" src="public/catalog/The-Godfather.jpg" alt="book-cover">
+                    <img class="catalog-image rounded-top img-fluid" src="public/catalog/The-Godfather.jpg"
+                        alt="book-cover">
                 </div>
                 <div class="catalog-information bg-gray rounded-bottom">
                     <p class="pt-2 pb-0 mb-0 font__poppins-14px-bold">The Godfather</p>
@@ -452,8 +452,11 @@
         </div>
     </section>
 
+    <!-- Dark & Light Theme -->
+
+
     <!-- footer section -->
-    <footer class=" mt-5 py-5 m-auto container">
+    <footer id="footer" class=" mt-5 py-5 m-auto container">
         <!-- for footer 1 -->
         <section class="footer-1">
             <div class="footer-logo">
@@ -482,13 +485,12 @@
                 <p>@BinarLibrary</p>
             </div>
         </section>
-
         <!-- for footer 3 -->
         <section class="footer-3">
-            <a href="#">Beranda</a>
-            <a href="#">Staff</a>
-            <a href="#">Kategori Buku</a>
-            <a href="#">Buku</a>
+            <a href="#" id="link">Beranda</a>
+            <a href="#" id="link">Staff</a>
+            <a href="#" id="link">Kategori Buku</a>
+            <a href="#" id="link">Buku</a>
         </section>
 
         <!-- for footer 4 -->
