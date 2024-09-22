@@ -134,8 +134,18 @@
 }
 
 .bg-deepblue {
-    background-color: #0065D0;
+  background-color: #1f76d4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.bg-deepblue:hover {
+  opacity: 0.9;
+}
+
 
 .bg-gray {
     background-color: #f2f2f2;
@@ -268,10 +278,7 @@ margin-bottom: 16px; */
     }
 
     .button-follow-me button:hover {
-        background-color: white;
-        border-radius: 5px;
-        color: black;
-        margin: 0;
+      opacity: 0.9;
     }
 }
 
