@@ -1,43 +1,44 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 /* Hero */
 
-.text-skyblue{
-    color: #2DC9EF;
+.text-skyblue {
+  color: #2dc9ef;
 }
 
-.text-deepblue{
-    color: #0065D0;
+.text-deepblue {
+  color: #0065d0;
 }
 
-.bg-deepblue{
-    background-color: #0065D0;
+.bg-deepblue {
+  background-color: #0065d0;
 }
 
-.bg-gray{
-    background-color: #f2f2f2;
+.bg-gray {
+  background-color: #f2f2f2;
 }
 
-.hero{
-    
+.hero {
 }
 
-.hero-content{
-    width: 80% ;
+.hero-content {
+  width: 80%;
 }
 
-@media(min-width:991px){
-    .desc-hero{
-        width: 60%;
-    }
-    .desc-hero h2{
-        font-size: 36px;
-    }
-    
-    .img-hero{
-        width: 30%;
-    }
+@media (min-width: 991px) {
+  .desc-hero {
+    width: 60%;
+  }
+  .desc-hero h2 {
+    font-size: 36px;
+  }
+
+  .img-hero {
+    width: 30%;
+  }
 }
-
-
 
 /* Carousel Staff */
 
@@ -209,4 +210,26 @@
     border-radius: 5px;
     color: black;
   }
+}
+
+/* Mengatur margin untuk container */
+.staff-container {
+  margin-top: 50px;
+}
+
+/* Mengatur gaya form input */
+.form-container {
+  padding: 20px;
+  background-color: #00bfff;
+  border-radius: 10px;
+}
+
+.staff-info {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.action-buttons button {
+  margin-right: 5px;
 }
