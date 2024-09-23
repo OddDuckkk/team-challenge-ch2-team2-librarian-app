@@ -224,9 +224,13 @@ function modifyStaff(button) {
 let body = document.body;
 let navbar = document.getElementById("navbar");
 let navbarFill = document.getElementById("navbarCollapse");
+let bgitems = document.querySelectorAll(".bg-gray");
+let bgtexts = document.querySelectorAll(".text-deepblue");
+let bgtextswhite = document.querySelectorAll(".text-white");
+let bgbtns = document.querySelectorAll(".bg-deepblue")
 let footer = document.getElementById("footer");
 let link = document.querySelectorAll("#link");
-let carousel = document.querySelectorAll("#name, #description");
+let carousel = document.querySelectorAll("#description");
 let catalogFill = document.querySelectorAll("#headline, #author");
 let carouselFrame = document.getElementById("carouselExampleRide");
 let testimonial = document.getElementById("Testimonial");
@@ -236,10 +240,20 @@ let lightTheme = document.getElementById("buttonLight");
 
 darkTheme.addEventListener('click', () => {
 
-  body.style.backgroundColor = "#0F0F0F";
-  navbar.style.backgroundColor = "#494949";
-  carouselFrame.style.backgroundColor = "#707070";
-  navbarFill.style.color = "#2DC9EF";
+  body.style.backgroundColor = "#16202A";
+  bgitems.forEach(bgitem => {
+    bgitem.classList.replace('bg-gray', 'bg-deepblue');
+  });
+  bgtexts.forEach(bgtext => {
+    bgtext.classList.replace('text-deepblue', 'text-white');
+  });
+  bgbtns.forEach(bgbtn => {
+    bgbtn.classList.replace('bg-deepblue', 'bg-skyblue');
+  });
+  // bgtextswhite.forEach(bgtextwhite => {
+  //   bgtextwhite.classList.replace('text-white', 'text-black');
+  // });
+  carouselFrame.style.backgroundColor = "#0065D0";
   footer.style.color = "white";
   testimonial.style.color = "white";
   catalog.style.color = "white";
@@ -262,7 +276,16 @@ lightTheme.addEventListener('click', () => {
 
   body.style.backgroundColor = "#FFFFFF";
   navbar.style.backgroundColor = "#0065D0";
-  carouselFrame.style.backgroundColor = "#2DC9EF";
+  bgitems.forEach(bgitem => {
+    bgitem.classList.replace('bg-deepblue', 'bg-gray');
+  });
+  bgtexts.forEach(bgtext => {
+    bgtext.classList.replace('text-white', 'text-deepblue');
+  });
+  bgbtns.forEach(bgbtn => {
+    bgbtn.classList.replace('bg-skyblue', 'bg-deepblue');
+  });
+  carouselFrame.style.backgroundColor = "#e5f8fd";
   navbarFill.style.color = "#2DC9EF";
   footer.style.color = "black";
   testimonial.style.color = "black";

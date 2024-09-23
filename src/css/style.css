@@ -81,6 +81,14 @@
   color: #0065d0;
 }
 
+.text-white {
+  color: white;
+}
+
+.bg-skyblue {
+  background-color: #2dc9ef;
+}
+
 .bg-deepblue {
   background-color: #0065d0;
 }
@@ -132,6 +140,15 @@
 
 .bg-deepblue {
   background-color: #1f76d4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bg-skyblue {
+  background-color: #2dc9ef;;
   border-radius: 5px;
   border: none;
   color: white;
@@ -276,7 +293,7 @@
   }
 
   .button-follow-me button {
-    background-color: #1f76d4;
+    background-color: #2DC9EF;
     border-radius: 5px;
     border: none;
     color: white;
@@ -421,7 +438,7 @@
 /* Mengatur gaya form input */
 .form-container {
   padding: 20px;
-  background-color: #00bfff;
+  background-color: #2DC9EF;
   border-radius: 10px;
 }
 
@@ -438,7 +455,7 @@
 
 /* Staff card */
 .card-staff {
-  background-color: #3881ce;
+  background-color: #0065D0;
   border-radius: 10px;
   box-shadow: 12px 11px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -461,7 +478,7 @@
 }
 
 .card-table th {
-  background-color: #3a93cb;
+  background-color: #2DC9EF;
   color: white;
   padding: 10px;
   text-align: center;
@@ -490,7 +507,7 @@
 }
 
 .btn-edit {
-  background-color: #17a2b8;
+  background-color: #2DC9EF;
 }
 
 .btn-delete {
@@ -512,7 +529,7 @@
 }
 
 .custom-scroll::-webkit-scrollbar-track {
-  background: #3881ce;
+  background: #0065D0;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
@@ -541,7 +558,7 @@
 }
 
 .btn-dark {
-  background-color: black;
+  background-color: #16202A;
   color: white;
   font-weight: 600;
   border-radius: 10px; 
